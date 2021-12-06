@@ -13,7 +13,7 @@ div.post {background: white;
 div.post img { 
 	width: 100%; 
 }
-div.post h2, p {
+div.post p {
 	padding: 8px;
 	margin: 0;
 }
