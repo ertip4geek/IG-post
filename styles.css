@@ -1,0 +1,22 @@
+html body {background: black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 50px;
+ }
+.icons, p, div {background: white;
+	margin: 0;
+	padding: 7px;
+}
+.post {background: white;
+	display: flex;
+	margin: 14px;
+	width: 50%;
+	height: 300px;
+	margin: auto;
+	padding-top: 10px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	overflow: visible; 
+ }
+.header {
+	margin: 0;
+	flex: auto;
+}
