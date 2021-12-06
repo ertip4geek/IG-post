@@ -1,22 +1,28 @@
 html body {background: black;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	margin-top: 50px;
  }
-.icons, p, div {background: white;
-	margin: 0;
-	padding: 7px;
-}
-.post {background: white;
-	display: flex;
-	margin: 14px;
-	width: 50%;
-	height: 300px;
+ div.container {background: white;
+	width: 600px;
 	margin: auto;
 	padding-top: 10px;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	overflow: visible; 
+}
+div.post {background: white;
+	margin: 14px;
  }
-.header {
+div.post img { 
+	width: 100%; 
+}
+div.post p {
+	padding: 8px;
 	margin: 0;
-	flex: auto;
+}
+div.post .post-header div:first-child {
+	display: inline-block;
+	width: 80%;
+}
+div.post .post-header div:last-child {
+	display: inline-block;
+	width: 20%;
+	text-align: center-right;
 }
